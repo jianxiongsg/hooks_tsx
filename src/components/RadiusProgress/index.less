@@ -1,0 +1,176 @@
+@vw:7.5vw;
+.circleProgress_wrapper{
+    width: 200/@vw;
+    height: 200/@vw;
+    margin: 50/@vw auto;
+    position: relative;
+    // border:1/@vw solid #ddd;
+}
+.wrapper{
+    width: 100/@vw;
+    height: 200/@vw;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.right{
+    right:0;
+    // border: solid 1/@vw black;
+}
+.left{
+    left:0;
+    // border: solid 1/@vw red;
+}
+
+
+.circleProgress{
+    width: 160/@vw;
+    height: 160/@vw;
+    border:20/@vw solid rgb(172, 172, 172);
+    position: absolute;
+    top:0;
+    border-radius: 50%;
+    transform: rotate(-135deg);
+}
+.rightcircle{
+    border-top:20/@vw solid rgb(218, 252, 24);
+    border-right:20/@vw solid rgb(218, 252, 24);
+    right:0;
+    animation: circleProgressLoad_right 5s linear infinite;
+}
+.leftcircle{
+    border-bottom:20/@vw solid rgb(218, 252, 24);
+    border-left:21/@vw solid rgb(218, 252, 24);
+    left:0;
+    animation: circleProgressLoad_left 5s linear infinite;
+}
+@keyframes circleProgressLoad_right{
+    0%{
+         -webkit-transform: rotate(-135deg);
+    }
+    50%,100%{
+         -webkit-transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left{
+    0%,50%{
+         -webkit-transform: rotate(-135deg);
+    }
+    100%{
+         -webkit-transform: rotate(45deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //
+// .progress_wrap{
+//     position: relative;
+//     margin:0 0 0 .14rem;
+//     width:.92rem;height:.92rem;
+//     //little和more用来展示黄色和绿色的效果
+//     &.little{
+//         .under{
+            
+//             .rightcircle,.leftcircle{
+//                 border-top:1.1vw;
+//             }
+//             .rightcircle{
+//                 border-right:1.1vw;
+//             }
+//             .leftcircle{
+//                 border-left:1.1vw;
+//             }
+//         }
+//         .up{
+//             .rightcircle,.leftcircle{
+//                 border-top:1.2vw;
+//             }
+//             .rightcircle{
+//                 border-right:1.2vw;
+//             }
+//             .leftcircle{
+//                 border-left:1.2vw;
+//             }
+//         }
+//         //用遮挡实现左侧剩余百分比，遮住超出环形范围部分；核心是使用同心圆进行边框进行遮挡
+//         .up_left_cover{
+//             width:.47rem;height:.92rem;
+//             .leftcircle{
+//                 top:-.02rem;
+//                 width:.74rem;height:.74rem;
+//                 border:.11rem solid transparent;
+//                 border-top:1.3vw;
+//                 border-left:1.3vw;
+//                 //实际值为195deg,被遮挡环颜色值深有光晕,需要将角度进行微调（-191deg）进行完全遮挡
+//                 -webkit-transform:rotate(-191deg);
+//             }
+//         }
+        
+//     }
+//     &.more{
+//         .under{
+//             .rightcircle,.leftcircle{
+//                 // border-top:$progress_border_under;
+//             }
+//             .rightcircle{
+//                 border-right:$progress_border_under;
+//             }
+//             .leftcircle{
+//                 border-left:$progress_border_under;
+//             }
+//         }
+//         .up{
+//             .rightcircle,.leftcircle{
+//                 border-top:$progress_border_up;
+//             }
+//             .rightcircle{
+//                 border-right:$progress_border_up;
+//             }
+//             .leftcircle{
+//                 border-left:$progress_border_up;
+//             }
+//         }
+//     }
+//     .right,.left{
+//         position: absolute;top:0;overflow:hidden;
+//         width:.46rem;height:.92rem;
+//         .circleProgress{
+//             position: absolute; top:0;
+//             width: .78rem; height: .78rem;
+//             border:.07rem solid transparent; border-radius: 50%;
+            
+//         }
+//         .rightcircle{
+//             right:0;
+//             -webkit-transform: rotate(15deg);
+//         }
+//         .leftcircle{
+//             left:0;
+//             -webkit-transform: rotate(-15deg);
+//         }
+        
+//     }
+//     .right{
+//         right:0;
+//     }
+//     .left{
+//         left:0;
+//     }
+//     .num{
+//         position: absolute;left:50%;top:50%;
+//         width:.5rem;
+//         transform:translate(-50%,-50%);
+//         font-size:.12rem;color:$public_auxiliary_col;text-align:center;line-height:.26rem;
+//     }
+// }

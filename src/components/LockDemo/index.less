@@ -1,0 +1,41 @@
+@vw:7.5vw;
+// .body{
+//     height: 200vh;
+// }
+.lockdemo{
+    position: absolute;
+    top: 0;
+    left: 75/@vw;
+    width: 600/@vw;
+    height: 800/@vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: yellow;
+}
+
+.loackcon{
+    position: relative;
+    top: 0;
+    left: 0/@vw;
+    width: 600/@vw;
+    height: 1200/@vw;
+    background-color: red;
+}
+.pdom{
+    position: absolute;
+    top: 100vw;
+    left: 50vw;
+    width: 50/@vw;
+    height: 50/@vw;
+    transition: transform 2s;
+}
+.lockb{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50/@vw;
+    height: 50/@vw;
+    background-color: royalblue;
+    transition: transform 2s;
+    transition-timing-function: cubic-bezier(0, 0.3, 0.6, 1);
+}

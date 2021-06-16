@@ -1,0 +1,30 @@
+@vw:7.5vw;
+.testbox{
+    position: absolute;
+    top: 100vw;
+    left: 100/@vw;
+    width: 600/@vw;
+    height: 100/@vw;
+    background-color: yellow;
+    overflow: hidden;
+    border-radius: 50/@vw;
+    // transform: scale(1);
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+}
+
+.testcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600/@vw;
+    height: 100/@vw;
+    background-color: rgba(19, 231, 47, 0.74);
+    transform: translateY(50vw);
+    border-radius: 50/@vw;
+    transform: translateX(-600/@vw);
+    transition: transform 2s linear;
+    -webkit-transition: transform 2s linear;
+    -moz-transition: transform 2s linear;
+    -o-transition: transform 2s linear;
+}

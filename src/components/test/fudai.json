@@ -1,0 +1,225 @@
+{
+    "api": "mtop.aplatform.hd2021618.get",
+    "data": {
+        "model": {
+            "bubbles": [],
+            "button": {
+                "status": "announce",
+                "subTitle": "",
+                "tips": "618超级星秀猫",
+                "title": "6月18日14点开心愿红包"
+            },
+            "dailyInteraction": {
+                "tmallFarm": true
+            },
+            "enter": {
+                "bigEater": {
+                    "pop": {
+                        "image": "https://gw.alicdn.com/imgextra/i3/O1CN01oN5op41S5M2V4q3rv_!!6000000002195-2-tps-628-462.png",
+                        "title": "6月2日开启挑战，瓜分百万喵币"
+                    },
+                    "visible": true,
+                    "status": "carve"
+                },
+                "dressUp": {
+                    "hasAward": false,
+                    "status": "viewed",
+                    "title": "装扮",
+                    "type": "dressUp",
+                    "visible": true
+                },
+                "partner": {
+                    "hasAward": false,
+                    "title": "合伙人",
+                    "type": "partner",
+                    "visible": true
+                },
+                "wishAward": {
+                    "hasAward": false,
+                    "visible": false
+                }
+            },
+            "flag": {
+                "hasChangedCareer": true,
+                "hasWishAward": false,
+                "isFirst": false,
+                "isFullLevel": true,
+                "isGiveRedPacket": true,
+                "isStartAtStageB": false
+            },
+            "guide": [
+                "618星秀猫冲冲冲"
+            ],
+            "intellect": {
+                "strategy": [
+                    {
+                        "actions": [
+                            {
+                                "actionArgs": {
+                                    "url": "https://pre-wormhole.tmall.com/wow/z/hdwk/20210618/partnership-test?wh_biz=tm&wh_showError=true&disableNav=YES&disableProgress=YES&isShake=true"
+                                },
+                                "actionType": "JUMP"
+                            }
+                        ],
+                        "count": 0,
+                        "id": "cff54aca-d37d-4208-bc03-ac7945e963b8",
+                        "rule": "get(opLogList, '0/type') === 'SHAKE'",
+                        "scene": "webtest"
+                    },
+                    {
+                        "actions": [
+                            {
+                                "actionArgs": {
+                                    "name": "2021618.cat2-single-game.ADD_BUBBLE_RANDOM"
+                                },
+                                "actionType": "EVENT"
+                            },
+                            {
+                                "actionArgs": {
+                                    "name": "2021618-single-game.SHOW_HAND_DAILY_FEED_CAT"
+                                },
+                                "actionType": "EVENT"
+                            }
+                        ],
+                        "count": 1,
+                        "id": "aea59109-1998-4a6c-a0e6-407c98627aa7",
+                        "rule": "+sleepDuration === 10",
+                        "scene": "webtest"
+                    }
+                ],
+                "config": {
+                    "WAIT_ADD_LOG": 500,
+                    "eventList": [
+                        {
+                            "name": "2021618-single-game.FEED_CAT_COIN_NOT_ENOUGH",
+                            "title": "喵币不足",
+                            "key": "ON_FEED_CAT_COIN_NOT_ENOUGH"
+                        },
+                        {
+                            "name": "2021618-single-game.ON_FONDLE_CAT",
+                            "title": "参与撸猫",
+                            "key": "ON_FONDLE_CAT"
+                        },
+                        {
+                            "name": "2021618-single-game.COLLECT_COIN_LEFT",
+                            "title": "收左边合伙人的金币",
+                            "key": "DO_COLLECT_COIN_LEFT"
+                        },
+                        {
+                            "name": "2021618-single-game.COLLECT_COIN",
+                            "title": "收我的金币",
+                            "key": "DO_COLLECT_COIN_MAIN"
+                        },
+                        {
+                            "name": "2021618-single-game.COLLECT_COIN_RIGHT",
+                            "title": "收右边边合伙人的金币",
+                            "key": "DO_COLLECT_COIN_RIGHT"
+                        },
+                        {
+                            "name": "2021618-single-game.ON_FEED_CAT_SUCCESS",
+                            "title": "喂猫成功",
+                            "key": "ON_FEED_CAT_SUCCESS"
+                        },
+                        {
+                            "name": "2021618-single-game.FEED_CAT",
+                            "title": "参与喂猫",
+                            "key": "DO_FEED_CAT"
+                        },
+                        {
+                            "name": "2021618-single-game.ON_WITHDRAW_SUCCESS",
+                            "title": "提现成功",
+                            "key": "ON_WITHDRAW_SUCCESS"
+                        },
+                        {
+                            "name": "2021618-single-game.ON_WITHDRAW_FAIL",
+                            "title": "提现失败",
+                            "key": "ON_WITHDRAW_FAIL"
+                        }
+                    ],
+                    "RATIO_MIN": 0.5,
+                    "WAIT_WATCH_EVENT": 300,
+                    "WAIT_SHAKE_LOG": 10000,
+                    "sceneId": "webtest"
+                }
+            },
+            "myAsset": {
+                "catCoin": {
+                    "icons": [
+                        "https://gw.alicdn.com/imgextra/i1/O1CN01uBrASo1sFau7wNbWO_!!6000000005737-2-tps-88-88.png"
+                    ],
+                    "status": "carve",
+                    "toast": "活动已结束",
+                    "value": "2804420"
+                },
+                "redPacket": {
+                    "isOver": false,
+                    "targetAmount": "1.28",
+                    "unWithDrawAmount": "2.82",
+                    "unit": "元",
+                    "unlockAmount": "2.88",
+                    "withDrawAmount": "0.06"
+                }
+            },
+            "myCat": {
+                "career": "singerCat",
+                "cost": "6",
+                "experience": {
+                    "isPercent": true,
+                    "percent": "100",
+                    "step": 0,
+                    "total": 100000
+                },
+                "hasChangedCareer": true,
+                "level": 50,
+                "material": {
+                    "changeSuitPrePic": "https://gw.alicdn.com/imgextra/i3/O1CN01NDHmsn1N9rrmQ7wQY_!!6000000001528-0-tps-398-270.jpg",
+                    "deskAtmosphere2": "https://gw.alicdn.com/imgextra/i1/O1CN01IokQCj1F24C0diiwQ_!!6000000000428-2-tps-170-128.png",
+                    "deskAtmosphere1": "https://gw.alicdn.com/imgextra/i4/O1CN01XOpL551uIScHUKVUf_!!6000000006014-2-tps-140-128.png",
+                    "animation2": "{\"id\":32060,\"src\":{\"image\":{\"type\":\"png\",\"url\":\"https://gw.alicdn.com/imgextra/i1/O1CN01MBADsH1nr5FVCdFB6_!!6000000005142-2-tps-835-835.png\"},\"ske\":{\"type\":\"json\",\"url\":\"https://pages.tmall.com/wow/eva/0a5f2bcb8730941a41b632de8d2689b2_ske.json\"},\"atlas\":{\"type\":\"atlas\",\"url\":\"https://pages.tmall.com/wow/eva/503da600e2ec3a211037c3a248914a59.atlas\"}},\"img_url\":\"https://gw.alicdn.com/imgextra/i1/O1CN01MBADsH1nr5FVCdFB6_!!6000000005142-2-tps-835-835.png\",\"name\":\"chinesefoodlv50p\",\"type\":\"SPINE\"}",
+                    "background": "https://gw.alicdn.com/imgextra/i1/O1CN01pSvzSj1ETiUNHoSND_!!6000000000353-0-tps-750-1624.jpg",
+                    "upgradePic": "https://gw.alicdn.com/imgextra/i4/O1CN01A1T1Ux1MqApnKRDlq_!!6000000001485-2-tps-750-600.png",
+                    "pic": "https://gw.alicdn.com/imgextra/i3/O1CN018S8I9l27I5IQD5KRK_!!6000000007773-2-tps-530-530.png",
+                    "picUnit": "https://gw.alicdn.com/imgextra/i4/O1CN01Qy09vX1eB6OsFgOod_!!6000000003832-2-tps-114-132.png",
+                    "animation": "{\"id\":32056,\"src\":{\"image\":{\"type\":\"png\",\"url\":\"https://gw.alicdn.com/imgextra/i3/O1CN01ex7stA1bT12vowrMW_!!6000000003465-2-tps-836-836.png\"},\"ske\":{\"type\":\"json\",\"url\":\"https://pages.tmall.com/wow/eva/ce8d72b284383206f0fe3824eca6c68d_ske.json\"},\"atlas\":{\"type\":\"atlas\",\"url\":\"https://pages.tmall.com/wow/eva/50a161341459a061183c4fc48f4be7dd.atlas\"}},\"img_url\":\"https://gw.alicdn.com/imgextra/i3/O1CN01ex7stA1bT12vowrMW_!!6000000003465-2-tps-836-836.png\",\"name\":\"chinesefoodlv50\",\"type\":\"SPINE\"}",
+                    "picMini": "https://gw.alicdn.com/imgextra/i4/O1CN01aXf1bf22zWmkyo93R_!!6000000007191-2-tps-228-228.png"
+                },
+                "materialId": 112008,
+                "nick": "最强中餐厨师",
+                "startTime": 1619690882000
+            },
+            "partnerCat": {
+                "hasAward": false,
+                "left": {
+                    "benefit": 0,
+                    "hasCat": false,
+                    "material": {}
+                },
+                "right": {
+                    "benefit": 0,
+                    "hasCat": false,
+                    "material": {}
+                },
+                "systemTime": 1620966674336
+            },
+            "popovers": [
+                {
+                    "data": {},
+                    "tpl": "commercialLaunchPop"
+                }
+            ],
+            "selfProduce": {
+                "amount": "115200",
+                "fullTime": 0,
+                "increase": 0,
+                "productivity": 4.0
+            }
+        },
+        "msgCode": "success",
+        "msgInfo": "调用成功",
+        "success": true
+    },
+    "ret": [
+        "SUCCESS::调用成功"
+    ],
+    "v": "1.0"
+}

@@ -1,0 +1,114 @@
+{
+    "api": "mtop.aplatform.hd2021618.get",
+    "data": {
+        "model": {
+            "button": {
+                "status": "feeda",
+                "subTitle": "每次消耗2喵币",
+                "tips": "再升1级解锁红包",
+                "title": "喂猫领红包"
+            },
+            "dailyInteraction": {
+                "tmallFarm": false
+            },
+            "enter": {
+                "bigEater": {
+                    "visible": false
+                },
+                "dressUp": {
+                    "status": "viewed",
+                    "title": "装扮",
+                    "type": "dressUp",
+                    "visible": true
+                },
+                "partner": {
+                    "title": "合伙人",
+                    "type": "partner",
+                    "url": "",
+                    "visible": false
+                },
+                "wishAward": {
+                    "visible": false
+                }
+            },
+            "flag": {
+                "hasChangedCareer": false,
+                "hasSubscribedBigEater": false,
+                "hasSubscribedPartner": false,
+                "hasSubscribedSelfProduction": false,
+                "hasWishAward": false,
+                "isFirst": false,
+                "isFullLevel": false,
+                "isGiveRedPacket": true,
+                "isStartAtStageB": false
+            },
+            "guide": [
+                "618星秀猫冲冲冲"
+            ],
+            "myAsset": {
+                "catCoin": {
+                    "value": "150000"
+                },
+                "redPacket": {
+                    "targetAmount": "100",
+                    "unWithDrawAmount": "计算中",
+                    "unit": "元",
+                    "unlockAmount": "计算中",
+                    "withDrawAmount": "计算中"
+                }
+            },
+            "myCat": {
+                "career": "singerCat",
+                "cost": "2",
+                "experience": {
+                    "isPercent": false,
+                    "percent": "100",
+                    "step": 0,
+                    "total": 1
+                },
+                "hasChangedCareer": false,
+                "level": 1,
+                "material": {
+                    "changeSuitPrePic": "https://gw.alicdn.com/imgextra/i3/O1CN019TjIXR1RzrHr8W9ZW_!!6000000002183-2-tps-398-250.png",
+                    "deskAtmosphere2": "https://gw.alicdn.com/imgextra/i3/O1CN01a3Cgbw1MIjuyY25gX_!!6000000001412-2-tps-750-1443.png",
+                    "deskAtmosphere1": "https://gw.alicdn.com/imgextra/i3/O1CN01a3Cgbw1MIjuyY25gX_!!6000000001412-2-tps-750-1443.png",
+                    "background": "https://gw.alicdn.com/imgextra/i3/O1CN01a3Cgbw1MIjuyY25gX_!!6000000001412-2-tps-750-1443.png",
+                    "animation2": "{\"id\":30240,\"src\":{\"image\":{\"type\":\"png\",\"url\":\"https://gw.alicdn.com/imgextra/i3/O1CN01w2CDGC21JYsYjEDiP_!!6000000006964-2-tps-666-666.png\"},\"ske\":{\"type\":\"json\",\"url\":\"https://pages.tmall.com/wow/eva/6e581bd461780d38885721f50f2eee66_ske.json\"},\"atlas\":{\"type\":\"atlas\",\"url\":\"https://pages.tmall.com/wow/eva/e85b9708df60de58959b15bc803cda0c.atlas\"}},\"img_url\":\"https://gw.alicdn.com/imgextra/i3/O1CN01w2CDGC21JYsYjEDiP_!!6000000006964-2-tps-666-666.png\",\"name\":\"chinesefoodlv2p\",\"type\":\"SPINE\"}",
+                    "upgradePic": "https://gw.alicdn.com/imgextra/i1/O1CN01BO0LgZ1tsoR3nkHAi_!!6000000005958-2-tps-630-471.png",
+                    "pic": "https://gw.alicdn.com/imgextra/i2/O1CN01R4s1iE1rZ04J9F0yr_!!6000000005644-2-tps-376-492.png",
+                    "picUnit": "https://gw.alicdn.com/imgextra/i3/O1CN01pUziJB1KHhnGISCiu_!!6000000001139-2-tps-102-92.png",
+                    "animation": "{\"id\":30236,\"src\":{\"image\":{\"type\":\"png\",\"url\":\"https://gw.alicdn.com/imgextra/i2/O1CN012cervE1Y1855kNy16_!!6000000002998-2-tps-657-657.png\"},\"ske\":{\"type\":\"json\",\"url\":\"https://pages.tmall.com/wow/eva/b62a41c2506e0352693d2ea5ddfd4cf4_ske.json\"},\"atlas\":{\"type\":\"atlas\",\"url\":\"https://pages.tmall.com/wow/eva/5652c06c7fa4ce6cbdbcc561e304f6ef.atlas\"}},\"img_url\":\"https://gw.alicdn.com/imgextra/i2/O1CN012cervE1Y1855kNy16_!!6000000002998-2-tps-657-657.png\",\"name\":\"chinesefoodlv2\",\"type\":\"SPINE\"}",
+                    "picMini": "https://gw.alicdn.com/imgextra/i2/O1CN01R4s1iE1rZ04J9F0yr_!!6000000005644-2-tps-376-492.png"
+                },
+                "materialId": 63002,
+                "nextAwardLeftLevel": 1,
+                "nick": "初级",
+                "startTime": 1619833668000
+            },
+            "partnerCat": {
+                "left": {
+                    "benefit": 0,
+                    "hasCat": false
+                },
+                "right": {
+                    "benefit": 0,
+                    "hasCat": false
+                },
+                "systemTime": 1619833671947
+            },
+            "selfProduce": {
+                "amount": "12",
+                "fullTime": 28795958,
+                "increase": 0,
+                "productivity": 3.0
+            }
+        },
+        "msgCode": "success",
+        "msgInfo": "调用成功",
+        "success": true
+    },
+    "ret": [
+        "SUCCESS::调用成功"
+    ],
+    "v": "1.0"
+}

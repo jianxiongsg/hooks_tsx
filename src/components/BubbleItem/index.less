@@ -1,0 +1,72 @@
+@vw:7.5vw;
+.bubbleitem-txt{
+    position: absolute;
+    top: 80/@vw;
+    left: 0;
+    width: 100%;
+    height: 80/@vw;
+    text-align: center;
+    line-height: 80/@vw;
+}
+
+.move1{
+    animation: move1 4s linear infinite;
+    -webkit-animation: move1 4s linear infinite;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.move2{
+    animation: move2 0.5s linear;
+    -webkit-animation: move2 0.5s linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    transform: translateY(-80/@vw);
+}
+
+@keyframes move1{
+    0%{
+        transform: translateY(0);
+    }
+    12.5%{
+        transform: translateY(-80/@vw);
+    }
+    87.5%{
+        transform: translateY(-80/@vw);
+    }
+    100%{
+        transform: translateY(-160/@vw);
+    }
+}
+@-webkit-keyframes move1{
+    0%{
+        transform: translateY(0);
+    }
+    12.5%{
+        transform: translateY(-80/@vw);
+    }
+    87.5%{
+        transform: translateY(-80/@vw);
+    }
+    100%{
+        transform: translateY(-160/@vw);
+    }
+}
+
+@keyframes move2{
+    form{
+        transform: translateY(-80/@vw);
+    }
+    to{
+        transform: translateY(-160/@vw);
+    }
+}
+
+@-webkit-keyframes move2{
+    form{
+        transform: translateY(-80/@vw);
+    }
+    to{
+        transform: translateY(-160/@vw);
+    }
+}
