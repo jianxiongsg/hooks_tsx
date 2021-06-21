@@ -1,13 +1,25 @@
 /**@jsx createElement */
-import {createElement , useContext, useEffect } from "rax";
+import {createElement , useContext,useLayoutEffect, useEffect } from "rax";
 import "./index.less"
 import Slider from "rax-slider";
 import Card from "../Card";
+import { useState } from "rax";
+let idx = 0
 export default function (props){
+  const [count,setCount] = useState(0);
+  const [test,setTest] = useState(0)
   
     useEffect(()=>{
-
+      (window as any).addCount = ()=>{
+        setTest(Math.random())
+      }
+    
     },[])
+
+    useLayoutEffect(()=>{
+      console.log("...............")
+      idx++;
+    })
     return (
         <div className="cardmgr-box">
             <Slider
@@ -40,7 +52,9 @@ export default function (props){
               return <Card key={index} index={index} />
             })
           }
+          
         </Slider>
+        {idx}
         </div>
     )
 }

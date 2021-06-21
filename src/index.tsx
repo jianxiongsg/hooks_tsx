@@ -4,11 +4,10 @@ import Demo from "./components/Demo";
 import * as DriverDOM from 'driver-dom';
 // import "./Util/ajax.js"
 import "./index.css"
-import CardMgr from "./components/CardMgr";
+import ContextParent from "./components/ContextParent";
 import LazyImg from "./components/LazyImg";
 import SliderUI from "./components/SliderUI";
-import Button from "./components/Button";
-import RadiusProgress from "./components/RadiusProgress";
+import RaxIcon from "./components/RaxIcon";
 export const b = 999999;
 export function start(ele:HTMLElement){ 
     render(
@@ -26,8 +25,8 @@ export function start(ele:HTMLElement){
         //             itemSelectedColor:'#4ea03d',
         //         }}
         //     />   
-        // <CardMgr />
-        <RadiusProgress />
+        <RaxIcon />
+        
     ,ele,{driver:DriverDOM})
     
 }

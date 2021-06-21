@@ -9,7 +9,7 @@ import SvgToolTip from "svg-tooltips-jx";
 import LockDemo from "../LockDemo";
 import "../XXL"
 import MemoChild from "../MemoChild";
-import Button from "../Button";
+import RaxUseTimeout from "../RaxUseTimeout";
 import useNumRoll from "../../hooks/useNumRoll";
 
 const Context = createContext({})
@@ -104,12 +104,12 @@ export default function Demo(){
             {test}
             <div className="testpresentation" role="presentation" aria-label="我是测试呀"></div>
             
-            {
+            {/* {
                 showButton && <Button />
-            }
+            } */}
             {/* <Child a={a} /> */}
             {/* {child1} */}
-            {/* <MemoChild testFun={testCallback} /> */}
+            <MemoChild testFun={testCallback} />
             {/* {`名字：${msg.name} 年龄：${msg.age} a:${a} preA:${preA}`} */}
             {/* <ContextParent />
             <Counter /> */}
@@ -133,6 +133,10 @@ export default function Demo(){
                 defsElement={defsElement}
                 fill='url(#Gradient1)'
             ></SvgToolTip> */}
+            {
+                showButton && <RaxUseTimeout />
+            }
+            
             {/* <div className="mm1" ><div className="mm2"></div></div> */}
         </div>
     )

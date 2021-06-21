@@ -15,7 +15,7 @@ export default function (props){
     },[])
     return (
         <div className="childbox" onClick={showMsg}>
-            {props.a}
+            {props.a+user+age}
         </div>
     )
 }
