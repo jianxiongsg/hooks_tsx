@@ -1,395 +1,115 @@
 {
-    "id": "SuperModal_10364",
-    "name": "亲密度奖励提醒",
-    "scenes": [
+  "api": "mtop.taobao.pentaprism.scene.query",
+  "data": {
+    "errorCode": "success",
+    "errorMsg": "SUCCESS:success",
+    "finishCount": "0",
+    "model": [
       {
-        "id": "TEAM_INTIMACY_TASK_REWARD_POP",
-        "name": "龙琳_亲密度奖励弹窗",
-        "layers": [
-          {
-            "id": "6u35fhk90q00",
-            "type": "group",
-            "name": "蒙层",
-            "children": [
-              {
-                "id": "6u35b8qudfo0",
-                "type": "group",
-                "name": "内容",
-                "children": [
-                  {
-                    "id": "6vh9ewqcc7o0",
-                    "type": "image",
-                    "name": "版头",
-                    "data": {
-                      "src": "//gw.alicdn.com/imgextra/i2/O1CN01dDwuV31hyyLXnVIZS_!!6000000004347-2-tps-750-497.png"
-                    },
-                    "style": {
-                      "display": "block",
-                      "width": "750px",
-                      "height": "496px",
-                      "position": "absolute",
-                      "top": "-178px"
-                    },
-                    "dynamic": [
-                      {
-                        "key": "src",
-                        "type": "data",
-                        "expression": "param.resourceInfo.commonPopTopPic"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6twgv9yti2k0",
-                    "type": "text",
-                    "name": "标题",
-                    "style": {
-                      "position": "absolute",
-                      "boxSizing": "border-box",
-                      "fontSize": "48px",
-                      "color": " #FC3C52",
-                      "lineHeight": "48px",
-                      "width": "590px",
-                      "text-align": "center",
-                      "top": "118px"
-                    },
-                    "data": {
-                      "text": "有亲密奖励可领取哦"
-                    },
-                    "dynamic": [
-                      {
-                        "key": "text",
-                        "type": "data",
-                        "expression": "param.title"
-                      },
-                      {
-                        "key": "color",
-                        "type": "style",
-                        "expression": "param.resourceInfo.commonPopTitleColor"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6vh9ki5vi6s0",
-                    "type": "custom",
-                    "name": "小标题",
-                    "style": {
-                      "display": "block",
-                      "width": "472px",
-                      "height": "84px",
-                      "position": "absolute",
-                      "boxSizing": "border-box",
-                      "fontSize": "30px",
-                      "color": "#666666",
-                      "lineHeight": "42px",
-                      "textAlign": "center",
-                      "top": "198px"
-                    },
-                    "data": {
-                      "componentId": "InnerHtmlComponent"
-                    },
-                    "dynamic": [
-                      {
-                        "key": "componentProps",
-                        "type": "data",
-                        "expression": "\r\nparam.data.subTitle\r\n"
-                      },
-                      {
-                        "key": "color",
-                        "type": "style",
-                        "expression": "param.resourceInfo.commonPopSubTitleColor"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6wed7qldua40",
-                    "type": "group",
-                    "name": "图片容器",
-                    "children": [
-                      {
-                        "id": "6weifvsfy640",
-                        "type": "image",
-                        "name": "福气图片",
-                        "data": {
-                          "src": "//gw.alicdn.com/imgextra/i2/O1CN01vCuioW25i4Vbi4vJP_!!6000000007559-2-tps-520-260.png"
-                        },
-                        "style": {
-                          "display": "block",
-                          "width": "520px",
-                          "height": "260px",
-                          "position": "relative",
-                          "boxSizing": "border-box"
-                        },
-                        "dynamic": [
-                          {
-                            "key": "src",
-                            "type": "data",
-                            "expression": "param.data.pic"
-                          }
-                        ]
-                      },
-                      {
-                        "id": "6wedd46b2jk0",
-                        "type": "group",
-                        "name": "福气值",
-                        "children": [
-                          {
-                            "id": "6vhdeugqcfg0",
-                            "type": "text",
-                            "name": "描述",
-                            "style": {
-                              "font-size": "28px",
-                              "color": "#FFFFFF",
-                              "text-align": "center",
-                              "padding-left": "40px",
-                              "padding-right": "40px",
-                              "line-height": "46px",
-                              "font-weight": "bold"
-                            },
-                            "data": {
-                              "text": ""
-                            },
-                            "dynamic": [
-                              {
-                                "key": "text",
-                                "type": "data",
-                                "expression": "param.data.desc"
-                              },
-                              {
-                                "key": "color",
-                                "type": "style",
-                                "expression": "param.resourceInfo.commonPopFuqiNumColor"
-                              }
-                            ]
-                          }
-                        ],
-                        "style": {
-                          "display": "block",
-                          "width": "auto",
-                          "height": "46px",
-                          "position": "absolute",
-                          "boxSizing": "border-box",
-                          "background": "rgba(0,0,0,0.60)",
-                          "border-radius": "23px",
-                          "top": "185px"
-                        },
-                        "dynamic": [
-                          {
-                            "key": "background",
-                            "type": "style",
-                            "expression": "param.resourceInfo.commonPopFuqiNumBg"
-                          }
-                        ]
-                      }
-                    ],
-                    "style": {
-                      "display": "flex",
-                      "width": "520px",
-                      "height": "260px",
-                      "position": "absolute",
-                      "boxSizing": "border-box",
-                      "top": "311px",
-                      "flex-direction": "column",
-                      "align-items": "center"
-                    }
-                  },
-                  {
-                    "id": "6t64cikkt000",
-                    "type": "group",
-                    "name": "按钮",
-                    "children": [
-                      {
-                        "id": "6t64hlzrbxw0",
-                        "type": "text",
-                        "name": "收下",
-                        "style": {
-                          "position": "absolute",
-                          "left": "0px",
-                          "top": "0px",
-                          "width": "494px",
-                          "height": "88px",
-                          "lineHeight": "88px",
-                          "fontFamily": "PingFangSC-Medium",
-                          "fontSize": "32px",
-                          "color": "#FFFFFF",
-                          "fontWeight": "bold",
-                          "textAlign": "center"
-                        },
-                        "data": {
-                          "text": "立即领取"
-                        },
-                        "lock": false,
-                        "dynamic": [
-                          {
-                            "key": "text",
-                            "type": "data",
-                            "expression": "param.data.buttonText"
-                          },
-                          {
-                            "key": "color",
-                            "type": "style",
-                            "expression": "param.resourceInfo.commonPopBtnColor"
-                          }
-                        ],
-                        "events": [],
-                        "invisible": false
-                      }
-                    ],
-                    "style": {
-                      "position": "absolute",
-                      "left": "48px",
-                      "bottom": "48px",
-                      "width": "494px",
-                      "height": "88px",
-                      "background-image": "linear-gradient(180deg, #FF6334 0%, #FF3838 100%)",
-                      "background-size": "cover",
-                      "background-repeat": "no-repeat",
-                      "borderRadius": "45px",
-                      "zIndex": 3
-                    },
-                    "events": [
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "next",
-                          "type": "eventCallback",
-                          "expression": "{\n    test: 'next' + 2\n}"
-                        }
-                      },
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "PopTraceClk",
-                          "type": "mx",
-                          "expression": "{\r\n  logKey: '/tmallinteract.farm.tree',\r\n  gmkey: 'CLK',\r\n  gokey: \"action=reward_get\"\r\n}"
-                        }
-                      },
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "toGame_showTeamUI",
-                          "type": "mx",
-                          "expression": "{showTeching:false}"
-                        }
-                      },
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "PopClose",
-                          "type": "mx",
-                          "expression": ""
-                        }
-                      }
-                    ],
-                    "invisible": false,
-                    "dynamic": [
-                      {
-                        "key": "background-image",
-                        "type": "style",
-                        "expression": "param.resourceInfo.commonPopBtn"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6t6blar0p2o0",
-                    "type": "image",
-                    "name": "关闭",
-                    "data": {
-                      "src": "//gw.alicdn.com/imgextra/i1/O1CN01lWzg5O1ZuNRfLN3r8_!!6000000003254-2-tps-78-78.png"
-                    },
-                    "style": {
-                      "position": "absolute",
-                      "bottom": "-126px",
-                      "width": "82px",
-                      "height": "82px",
-                      "zIndex": 3
-                    },
-                    "events": [
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "PopClose",
-                          "type": "mx",
-                          "expression": ""
-                        }
-                      },
-                      {
-                        "type": "onClick",
-                        "emit": {
-                          "id": "PopTraceClk",
-                          "type": "mx",
-                          "expression": "{\r\n  logKey: '/tmallinteract.farm.tree',\r\n  gmkey: 'CLK',\r\n  gokey: \"action=reward_close\"\r\n}"
-                        }
-                      }
-                    ],
-                    "dynamic": [
-                      {
-                        "key": "src",
-                        "type": "data",
-                        "expression": "param.resourceInfo.modalCloseBtnPic"
-                      }
-                    ]
-                  }
-                ],
-                "style": {
-                  "position": "relative",
-                  "width": "590px",
-                  "height": "756px",
-                  "background-image": "linear-gradient(to bottom, #fff, #fff)",
-                  "background-size": "cover",
-                  "background-repeat": "no-repeat",
-                  "borderRadius": "24px",
-                  "display": "flex",
-                  "flex-direction": "column",
-                  "align-items": "center",
-                  "boxSizing": "border-box"
-                },
-                "dynamic": [
-                  {
-                    "key": "background-image",
-                    "type": "style",
-                    "expression": "param.resourceInfo.commonPopBg"
-                  },
-                  {
-                    "key": "border",
-                    "type": "style",
-                    "expression": "param.resourceInfo.commonPopBorder"
-                  }
-                ],
-                "simpleAnimate": {
-                  "animateName": "animate__bounceIn",
-                  "duration": 0.5,
-                  "count": "1"
-                }
-              }
-            ],
-            "style": {
-              "width": "100vw",
-              "height": "100vh",
-              "position": "fixed",
-              "z-index": "99",
-              "background": "rgba(0, 0, 0, 0.8)",
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center"
-            },
-            "dynamic": [
-              {
-                "key": "background",
-                "type": "style",
-                "expression": "param.resourceInfo.commonPopMaskBg"
-              }
-            ]
+        "assets": {
+          "acceptBtn": "去逛逛",
+          "action": "https://pages.tmall.com/wow/z/hdwk/tmfarm/lld?wh_biz=tm&app_pid=tb:431359_1007,tm:431405_1007&bizCode=new_browse_task2&disableNav=YES",
+          "actionType": "VISIT",
+          "awardBtn": "领取奖励",
+          "completeBtn": "已完成",
+          "desc": "浏览15秒得1000肥料",
+          "duration": "15",
+          "extra": {
+            "compType": "OFFICIAL_FLOATBADGE",
+            "needUpdate": "false",
+            "version": "1"
+          },
+          "icon": "https://gw.alicdn.com/tfs/TB1tl5FtYj1gK0jSZFuXXcrHpXa-94-94.png",
+          "id": "326009",
+          "initBtn": "领取任务",
+          "limitCount": "0",
+          "title": "逛精选商品",
+          "type": "expo",
+          "weight": "1"
+        },
+        "assetsMode": "RANDOM",
+        "complete": "false",
+        "expand": "false",
+        "groupId": "3087",
+        "groupIndex": "2",
+        "id": "12322",
+        "ignore": "false",
+        "index": "1",
+        "isToday": "false",
+        "isTodayFinish": "false",
+        "mainId": "12322",
+        "proceeds": [],
+        "progress": {
+          "cdTime": "-1",
+          "loopTimes": "1",
+          "maxTimes": "3",
+          "needTimes": "3",
+          "period": "251",
+          "reachLimit": "false",
+          "status": "ACCEPTED",
+          "times": "0"
+        },
+        "status": "ACCEPTED",
+        "taskParams": {
+          "activityId": "100085",
+          "awardIndex": "1",
+          "deliveryId": "12322",
+          "fromToken": "XZNzaeVcdlOvMnX5tn2iLrXHZUPUg",
+          "implId": "expo_251_326009_12322_0",
+          "sceneId": "971"
+        },
+        "taskSubType": "ONCE",
+        "taskType": "task_browse",
+        "theme": {
+          "center": {
+            "processTitle": "累计任务奖励",
+            "processDesc": "当前进度"
+          },
+          "dungeon": {
+            "verticalOffset": "300",
+            "position": "right",
+            "bannerImg": "https://gw.alicdn.com/tfs/TB19BtVH4D1gK0jSZFyXXciOVXa-160-120.png",
+            "initTitle": "滑动浏览得肥料"
           }
-        ],
-        "$private.mockParam": "{\r\n  \"tpl\": \"TEAM_INTIMACY_TASK_REWARD_POP\", \r\n  \"data\": {\r\n    \"order\":\"1\", \r\n    \"title\":\"恭喜队伍达成了任务奖励\",  \r\n    \"subTitle\":\"由于你长时间未施肥，被队长踢出了<rgb style='color: #45AD3D; font-weight: 600'>“xxx”</rgb>的合种队伍。明日为你返还在队伍中贡献的<rgb style='color: #45AD3D;font-weight: 600'>90%</rgb>肥料\", \r\n    \"pic\":\"\",    \r\n    \"buttonText\": \"我知道了\",\r\n    \"desc\": \"去任务面板领取\"\r\n  },\r\n  \"actions\": [\r\n      {\r\n        \"id\": \"\",           \r\n        \"display\": {          \r\n          \"btnTxt\": \"我知道了\"\r\n        }\r\n      }\r\n  ]\r\n}",
-        "extendExpression": "{\r\n  goldLogKey: '/tmallinteract.farm.tree',\r\n  goldLogType: 'CLK',\r\n  goldLogParam: {\r\n    action: \"reward_close\"\r\n  }\r\n}"
+        },
+        "trackParams": {
+          "click": {
+            "activity": "100085",
+            "bizCode": "971",
+            "extra": "expo_251_326009_12322_0",
+            "progressNum": "0",
+            "taskCode": "12322",
+            "testId": "971"
+          },
+          "expose": {
+            "activity": "100085",
+            "bizCode": "971",
+            "extra": "expo_251_326009_12322_0",
+            "progressNum": "0",
+            "taskCode": "12322",
+            "testId": "971"
+          }
+        },
+        "weight": "40"
       }
     ],
-    "stageView": {
-      "width": 750,
-      "height": 1334,
-      "dpr": 2
-    },
-    "library": []
-  }
+    "now": "2021-08-09 14:58:02",
+    "totalCount": "7",
+    "track": {
+      "click": {
+        "activity": "100085",
+        "bizCode": "971",
+        "testId": "971"
+      },
+      "expose": {
+        "activity": "100085",
+        "bizCode": "971",
+        "testId": "971"
+      }
+    }
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "1.0"
+}

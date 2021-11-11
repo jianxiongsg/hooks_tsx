@@ -32,7 +32,7 @@ export default function (){
     },[])
     return (
         <div>
-            {
+            {/* {
                 
                 <div ref={scrollParent} className="lockdemo" >
                     <div className="loackcon">
@@ -40,8 +40,8 @@ export default function (){
                     </div>
                 </div>
             }
-            <div ref={pdom} className="pdom"><div ref={moveDom} className="lockb"></div></div>
-            <div dangerouslySetInnerHTML = {{ __html: "队伍<rgb style='color: #219B15;'>“相亲相爱一家人”</rgb>亲密值达到了280，获得了亲密奖励" }} />
+            <div ref={pdom} className="pdom"><div ref={moveDom} className="lockb"></div></div> */}
+            <div dangerouslySetInnerHTML = {{ __html: "队伍<rgb style='color: #219B15;'>“相亲相爱一家人”</rgb>亲密值达到了28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;获得了亲密奖励" }} />
         </div>
         
     )

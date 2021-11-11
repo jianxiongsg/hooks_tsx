@@ -133,10 +133,29 @@ export default function Demo(){
                 defsElement={defsElement}
                 fill='url(#Gradient1)'
             ></SvgToolTip> */}
+             <SvgToolTip
+                className={`svg-con`}
+                a11yId={"svgEleId"}
+                strockWidth={0}
+                radius={18}
+                width={300}
+                height={80}
+                direction={"top"}
+                arrowOffset={0}
+                arrowWidth={12}
+                arrowHeight={24}
+                transitionName="boost-mod-block"
+                arrowPath={'L -12 12 L -24 0'}
+                content={getContent()}
+                fill='url(#Gradient1)'
+            ></SvgToolTip>
             {
                 showButton && <RaxUseTimeout />
             }
-            
+            <form action="http://127.0.0.1:3000/users/upfile" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="file" value="" multiple={true} />
+                <input type="submit" value="提交"/>
+            </form>
             {/* <div className="mm1" ><div className="mm2"></div></div> */}
         </div>
     )

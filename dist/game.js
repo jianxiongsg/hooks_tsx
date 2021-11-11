@@ -86,69 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Child/index.less":
-/*!***********************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Child/index.less ***!
-  \***********************************************************************************************************************************************************/
+/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/LockDemo/index.less":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/LockDemo/index.less ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".childbox {\\n  position: relative;\\n  top: 0;\\n  left: 0;\\n  width: 20vw;\\n  height: 20vw;\\n  margin-top: 5vw;\\n  background: yellow;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/Child/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextChild/index.less":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextChild/index.less ***!
-  \******************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/ContextChild/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextParent/index.less":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextParent/index.less ***!
-  \*******************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/ContextParent/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Demo/index.less":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Demo/index.less ***!
-  \**********************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".demobox {\\n  position: absolute;\\n  top: 80vw;\\n  width: 50vw;\\n  height: 200vh;\\n  transform: scale(1);\\n}\\n.mm1 {\\n  position: absolute;\\n  display: inline-block;\\n  width: 10.66666667vw;\\n  height: 10.66666667vw;\\n  background-color: red;\\n}\\n.testpresentation {\\n  position: absolute;\\n  top: 40vw;\\n  left: 26.66666667vw;\\n  width: 26.66666667vw;\\n  height: 6.66666667vw;\\n  background-color: red;\\n}\\n.testbtn {\\n  position: absolute;\\n  top: 106.66666667vw;\\n  left: 26.66666667vw;\\n  width: 53.33333333vw;\\n  height: 13.33333333vw;\\n  background-color: red;\\n}\\n#svgEleId > svg {\\n  stroke: #FF0000;\\n  stroke-width: 5px;\\n}\\nbody {\\n  height: 200vh;\\n}\\n.mm2 {\\n  position: absolute;\\n  margin-left: 6.66666667vw;\\n  display: inline-block;\\n  width: 100%;\\n  height: 10.66666667vw;\\n  background-color: yellow;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/Demo/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/MemoChild/index.less":
-/*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/MemoChild/index.less ***!
-  \***************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".memochildbox {\\n  position: relative;\\n  top: 0;\\n  left: 0;\\n  width: 20vw;\\n  height: 20vw;\\n  margin-top: 5vw;\\n  background: #1ce63e;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/MemoChild/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/RaxUseTimeout/index.less":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/RaxUseTimeout/index.less ***!
-  \*******************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/RaxUseTimeout/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".lockdemo {\\n  position: absolute;\\n  top: 0;\\n  left: 10vw;\\n  width: 80vw;\\n  height: 106.66666667vw;\\n  overflow-y: scroll;\\n  overflow-x: hidden;\\n  background-color: yellow;\\n}\\n.loackcon {\\n  position: relative;\\n  top: 0;\\n  left: 0vw;\\n  width: 80vw;\\n  height: 160vw;\\n  background-color: red;\\n}\\n.pdom {\\n  position: absolute;\\n  top: 100vw;\\n  left: 50vw;\\n  width: 6.66666667vw;\\n  height: 6.66666667vw;\\n  transition: transform 2s;\\n}\\n.lockb {\\n  position: relative;\\n  top: 0;\\n  left: 0;\\n  width: 6.66666667vw;\\n  height: 6.66666667vw;\\n  background-color: royalblue;\\n  transition: transform 2s;\\n  transition-timing-function: cubic-bezier(0, 0.3, 0.6, 1);\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/components/LockDemo/index.less?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -220,30 +165,6 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
 
 "use strict";
 eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\nmodule.exports = ReactPropTypesSecret;\n\n//# sourceURL=webpack:///./node_modules/_prop-types@15.7.2@prop-types/lib/ReactPropTypesSecret.js?");
-
-/***/ }),
-
-/***/ "./node_modules/_rax-use-mounted-state@1.0.1@rax-use-mounted-state/lib/index.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/_rax-use-mounted-state@1.0.1@rax-use-mounted-state/lib/index.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nexports.__esModule = true;\nexports[\"default\"] = useMountedState;\n\nvar _rax = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nfunction useMountedState() {\n  var mountedRef = (0, _rax.useRef)(false);\n  var get = (0, _rax.useCallback)(function () {\n    return mountedRef.current;\n  }, []);\n  (0, _rax.useEffect)(function () {\n    // Set ref current to true, when component is rendered\n    mountedRef.current = true;\n    return function () {\n      // Set ref current to false, when component will unmount\n      mountedRef.current = false;\n    };\n  });\n  return get;\n}\n\n//# sourceURL=webpack:///./node_modules/_rax-use-mounted-state@1.0.1@rax-use-mounted-state/lib/index.js?");
-
-/***/ }),
-
-/***/ "./node_modules/_rax-use-timeout@1.0.0@rax-use-timeout/lib/index.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/_rax-use-timeout@1.0.0@rax-use-timeout/lib/index.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nexports.__esModule = true;\nexports.default = useTimeout;\n\nvar _rax = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nfunction clearTimer(id) {\n  if (id != null) clearTimeout(id);\n}\n\nfunction useTimeout(fn, delay) {\n  var ref = (0, _rax.useRef)(); // Update to the latest function.\n\n  (0, _rax.useEffect)(function () {\n    ref.fn = fn;\n  }, [fn]);\n  (0, _rax.useEffect)(function () {\n    // Clear before timer if delay time updated\n    clearTimer(ref.id);\n\n    if (typeof delay === 'number') {\n      ref.id = setTimeout(function () {\n        return ref.fn();\n      }, delay);\n      return function () {\n        return clearTimer(ref.id);\n      };\n    }\n  }, [delay]);\n}\n\n//# sourceURL=webpack:///./node_modules/_rax-use-timeout@1.0.0@rax-use-timeout/lib/index.js?");
 
 /***/ }),
 
@@ -786,199 +707,37 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/Util/helper.ts":
-/*!****************************!*\
-  !*** ./src/Util/helper.ts ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.toNormalValue = exports.convertValue = exports.delay = void 0;\n\n__webpack_require__(/*! ./test */ \"./src/Util/test.ts\");\n\n__webpack_require__(/*! ./useTimer */ \"./src/Util/useTimer.ts\");\n\nvar ticks = [];\nvar isTick = false;\n\nfunction bubbletick() {\n  if (ticks.length === 0) {\n    isTick = false;\n    return;\n  }\n\n  isTick = true;\n  requestAnimationFrame(function (curTime) {\n    var removelist = [];\n    ticks.forEach(function (t) {\n      if (t.startTime === undefined) {\n        t.startTime = curTime;\n      }\n\n      var dist = curTime - t.startTime;\n\n      if (t.time - dist < 0) {\n        t.func();\n        removelist.push(t);\n      }\n    });\n    removelist.forEach(function (o) {\n      var idx = ticks.indexOf(o);\n\n      if (idx !== -1) {\n        ticks.splice(idx, 1);\n      }\n    });\n    bubbletick();\n  });\n}\n\nfunction delay(time, func) {\n  ticks.push({\n    time: time,\n    func: func,\n    startTime: undefined\n  });\n\n  if (!isTick) {\n    bubbletick();\n  }\n}\n\nexports.delay = delay;\n\nfunction convertValue(v) {\n  return v / 7.5 + \"vw\";\n}\n\nexports.convertValue = convertValue;\n\nfunction toNormalValue(v) {\n  return v / window.innerWidth * 750;\n}\n\nexports.toNormalValue = toNormalValue; // 定义滚动类型，为了避免同一种类型连续调用时出现数字混乱\n\nvar RollType;\n\n(function (RollType) {\n  RollType[RollType[\"Redbag\"] = 0] = \"Redbag\";\n  RollType[RollType[\"Coin\"] = 1] = \"Coin\";\n})(RollType || (RollType = {}));\n\nvar maxRollAnimTime = 1000;\nvar rollSpeed = 0.02;\nvar rollTypes = {};\n\nvar rollAmountAnim = function rollAmountAnim(startAmount, targetAmount, type, updateCb, finishCb) {\n  if (!rollTypes[type]) {\n    rollTypes[type] = 0;\n  }\n\n  rollTypes[type]++;\n  var rollTypeId = rollTypes[type];\n  var rollAnimTime = Math.abs(targetAmount - startAmount) / rollSpeed;\n  var changeAmount = targetAmount - startAmount;\n  rollAnimTime = Math.min(rollAnimTime, maxRollAnimTime);\n  var rollStartTime;\n\n  var playAnim = function playAnim() {\n    requestAnimationFrame(function (time) {\n      if (!rollStartTime) {\n        rollStartTime = time;\n      }\n\n      var dt = time - rollStartTime;\n      var showAmount = startAmount + Math.floor(dt / rollAnimTime * changeAmount);\n      showAmount = Math.floor(showAmount * 100) / 100;\n\n      if (dt >= rollAnimTime) {\n        showAmount = targetAmount;\n        rollStartTime = 0;\n        updateCb && updateCb(targetAmount);\n        finishCb && finishCb();\n        return;\n      }\n\n      if (rollTypes[type] !== rollTypeId) {\n        return;\n      }\n\n      updateCb(showAmount);\n      playAnim();\n    });\n  };\n\n  playAnim();\n}; // (window as any).rollAmountAnim = rollAmountAnim;\n// rollAmountAnim(0,40000,RollType.Coin,(v)=>{console.log(v),()=>{console.log(\"finish\")}})\n// setTimeout(()=>{\n//   rollAmountAnim(0,90000,RollType.Coin,(v)=>{console.log(v),()=>{console.log(\"finish\")}})\n// },300)\n\n//# sourceURL=webpack:///./src/Util/helper.ts?");
-
-/***/ }),
-
-/***/ "./src/Util/test.ts":
+/***/ "./src/Util/ajax.js":
 /*!**************************!*\
-  !*** ./src/Util/test.ts ***!
+  !*** ./src/Util/ajax.js ***!
   \**************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// var color = \"green\";\n// var test4399 = {c\n//     color:\"blue\",\n//     getColor:function(){\n//         var color = \"red\";\n//         alert(this.color);\n//     }\n// }\n// var getColor = test4399.getColor;\n// getColor();\n// test4399.getColor();\n// (window as any).testFun = (data)=>{\n//     console.log(\"............\",data)\n// }\n// import jsonp from \"jsonp\";\n// jsonp(\"http://30.10.75.236:8888/test.js\",{\n// },(err,data)=>{\n//     console.log(\".>>>>>>>>>>>>>>>>\",err,data)\n// })\nhttps: //pages.tmall.com/wow/hdwk/act/2020nhj-single?utparam=%7B%22ranger_buckets_native%22%3A%22tsp6259_33640%22%7D&spm=a2141.1.iconsv5.8&scm=1007.home_icon.tamllnongchang.d&wh_biz=tm&disableNav=YES&disableProgress=YES&hd_from=tbicon_new\nvar now = function now() {\n  var date = new Date();\n  var y = date.getFullYear();\n  var mt = date.getMonth() + 1;\n  var d = date.getDay();\n  var h = date.getHours();\n  var mi = date.getMinutes();\n  var s = date.getSeconds();\n  return y + \"-\" + mt + \"-\" + d + \" \" + h + \":\" + mi + \":\" + s;\n};\n\nconsole.log(\"..............now\", now());\n\n//# sourceURL=webpack:///./src/Util/test.ts?");
+eval("function ajax(options) {\n  var defaults = {\n    type: 'GET',\n    url: '',\n    data: {},\n    header: {\n      'Content-Type': 'application/x-www-form-urlencoded'\n    },\n    success: function success() {},\n    error: function error() {}\n  };\n  Object.assign(defaults, options);\n  var xhr;\n\n  if (window.XMLHttpRequest) {\n    xhr = new XMLHttpRequest();\n  } else {\n    xhr = new ActiveXObject(\"Microsoft.XMLHTTP\");\n  }\n\n  var params = defaults.url.indexOf(\"?\") === -1 ? '?' : \"&\";\n\n  for (var key in options.data) {\n    params += key + '=' + defaults.data[key] + \"&\";\n  }\n\n  params = params.substr(0, params.length - 1);\n\n  if (defaults.type === 'GET') {\n    defaults.url = defaults.url + params;\n  }\n\n  xhr.open(defaults.type, defaults.url);\n\n  if (defaults.type === 'POST') {\n    var contentType = defaults.header['Content-Type'];\n    xhr.setRequestHeader('Content-Type', contentType);\n\n    if (contentType === 'application/json') {\n      xhr.send(JSON.stringify(defaults.data));\n    } else {\n      xhr.send(params);\n    }\n  } else {\n    xhr.send();\n  }\n\n  xhr.onload = function () {\n    var contentType = xhr.getResponseHeader('Content-Type');\n    var responseText = xhr.responseText;\n\n    if (contentType.includes(\"application/json\")) {\n      responseText = JSON.parse(responseText);\n    }\n\n    console.log(\"aaaaaaaaaaaaaaaaaaaa\");\n\n    if (xhr.status == 200) {\n      defaults.success(responseText, xhr);\n    } else {\n      defaults.error(responseText, xhr);\n    }\n  };\n\n  console.log(xhr);\n\n  xhr.onerror = function (err) {\n    console.log(\"...........onerror\", err);\n    defaults.error(\".....报错error\");\n  };\n}\n\najax({\n  type: 'GET',\n  url: 'http://localhost:3000/users/test',\n  data: {\n    username: \"zhangsan\",\n    id: \"12345\"\n  },\n  header: {\n    'Content-Type': 'application/json'\n  },\n  success: function success(data, xhr) {\n    console.log(\"成功\", data);\n  },\n  error: function error(data, xhr) {\n    console.log(\"error\", data);\n  }\n});\n\n//# sourceURL=webpack:///./src/Util/ajax.js?");
 
 /***/ }),
 
-/***/ "./src/Util/useTimer.ts":
-/*!******************************!*\
-  !*** ./src/Util/useTimer.ts ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.useTimer = void 0;\n/** @jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nexports.useTimer = function () {\n  var timerList = rax_1.useRef([]);\n\n  var _setTimeout = rax_1.useRef(function (cb, time) {\n    var timer = setTimeout(function () {\n      cb && cb();\n      removeListItem(timer);\n    }, time);\n    timerList.current.push(timer);\n    return timer;\n  });\n\n  var _clearTimeout = rax_1.useRef(function (timer) {\n    clearTimeout(timer);\n    removeListItem(timer);\n  });\n\n  var removeListItem = function removeListItem(timer) {\n    var idx = timerList.current.findIndex(function (item) {\n      return item === timer;\n    });\n    idx >= 0 && timerList.current.splice(idx, 1);\n  };\n\n  rax_1.useEffect(function () {\n    return function () {\n      timerList.current.length > 0 && timerList.current.map(function (item) {\n        clearTimeout(item);\n      });\n      timerList.current = [];\n      console.log(\"...........\", timerList.current.length);\n    };\n  }, []);\n  return [_setTimeout.current, _clearTimeout.current];\n}; // const [delay,clear] = useTimer()\n// let hander = delay(()=>{\n//     console.log(\"...............\")\n// },3000)\n// setTimeout(()=>{\n//     clear(hander)\n// },1000)\n\n//# sourceURL=webpack:///./src/Util/useTimer.ts?");
-
-/***/ }),
-
-/***/ "./src/components/Child/index.less":
-/*!*****************************************!*\
-  !*** ./src/components/Child/index.less ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Child/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/Child/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/Child/index.tsx":
-/*!****************************************!*\
-  !*** ./src/components/Child/index.tsx ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar ContextParent_1 = __webpack_require__(/*! ../ContextParent */ \"./src/components/ContextParent/index.tsx\");\n\n__webpack_require__(/*! ./index.less */ \"./src/components/Child/index.less\");\n\nfunction default_1(props) {\n  var _a = rax_1.useContext(ContextParent_1.Context),\n      user = _a.user,\n      age = _a.age;\n\n  var showMsg = function showMsg() {\n    setTimeout(function () {\n      console.log(\"......a\", props.a);\n    }, 2000);\n  };\n\n  rax_1.useEffect(function () {}, []);\n  return rax_1.createElement(\"div\", {\n    className: \"childbox\",\n    onClick: showMsg\n  }, props.a + user + age);\n}\n\nexports.default = default_1;\n\n//# sourceURL=webpack:///./src/components/Child/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/components/ContextChild/index.less":
-/*!************************************************!*\
-  !*** ./src/components/ContextChild/index.less ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextChild/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/ContextChild/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/ContextChild/index.tsx":
-/*!***********************************************!*\
-  !*** ./src/components/ContextChild/index.tsx ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar Child_1 = __importDefault(__webpack_require__(/*! ../Child */ \"./src/components/Child/index.tsx\"));\n\nvar ContextParent_1 = __webpack_require__(/*! ../ContextParent */ \"./src/components/ContextParent/index.tsx\");\n\n__webpack_require__(/*! ./index.less */ \"./src/components/ContextChild/index.less\");\n\nfunction default_1(props) {\n  var _a = rax_1.useContext(ContextParent_1.Context),\n      user = _a.user,\n      age = _a.age;\n\n  var showMsg = function showMsg() {\n    setTimeout(function () {\n      console.log(\"......msg\", user, age);\n    }, 5000);\n  };\n\n  rax_1.useEffect(function () {}, []);\n  return rax_1.createElement(\"div\", {\n    className: \"contextchildbox\",\n    onClick: showMsg\n  }, \"user:\" + user + \",age:\" + age, rax_1.createElement(Child_1.default, {\n    a: 1\n  }));\n}\n\nexports.default = default_1;\n\n//# sourceURL=webpack:///./src/components/ContextChild/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/components/ContextParent/index.less":
-/*!*************************************************!*\
-  !*** ./src/components/ContextParent/index.less ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/ContextParent/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/ContextParent/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/ContextParent/index.tsx":
-/*!************************************************!*\
-  !*** ./src/components/ContextParent/index.tsx ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Context = void 0;\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar ContextChild_1 = __importDefault(__webpack_require__(/*! ../ContextChild */ \"./src/components/ContextChild/index.tsx\"));\n\n__webpack_require__(/*! ./index.less */ \"./src/components/ContextParent/index.less\");\n\nvar initMsg = {\n  user: \"\",\n  age: 0\n};\nexports.Context = rax_1.createContext(initMsg);\n\nfunction default_1(props) {\n  var _a = rax_1.useState(initMsg),\n      msg = _a[0],\n      setMsg = _a[1];\n\n  rax_1.useEffect(function () {\n    setTimeout(function () {\n      setMsg(function (state) {\n        return {\n          user: \"wang\",\n          age: 20\n        };\n      });\n    }, 5000);\n  }, []);\n  return rax_1.createElement(exports.Context.Provider, {\n    value: msg\n  }, rax_1.createElement(\"div\", {\n    className: \"contextparentbox\"\n  }, rax_1.createElement(ContextChild_1.default, null)));\n}\n\nexports.default = default_1;\n\n//# sourceURL=webpack:///./src/components/ContextParent/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/components/Demo/index.less":
-/*!****************************************!*\
-  !*** ./src/components/Demo/index.less ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/Demo/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/Demo/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/Demo/index.tsx":
-/*!***************************************!*\
-  !*** ./src/components/Demo/index.tsx ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar __assign = this && this.__assign || function () {\n  __assign = Object.assign || function (t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n      s = arguments[i];\n\n      for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];\n      }\n    }\n\n    return t;\n  };\n\n  return __assign.apply(this, arguments);\n};\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/** @jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar Child_1 = __importDefault(__webpack_require__(/*! ../Child */ \"./src/components/Child/index.tsx\"));\n\n__webpack_require__(/*! ./index.less */ \"./src/components/Demo/index.less\");\n\n__webpack_require__(/*! ../../Util/helper */ \"./src/Util/helper.ts\");\n\n__webpack_require__(/*! ../XXL */ \"./src/components/XXL/index.js\");\n\nvar MemoChild_1 = __importDefault(__webpack_require__(/*! ../MemoChild */ \"./src/components/MemoChild/index.tsx\"));\n\nvar RaxUseTimeout_1 = __importDefault(__webpack_require__(/*! ../RaxUseTimeout */ \"./src/components/RaxUseTimeout/index.tsx\"));\n\nvar useNumRoll_1 = __importDefault(__webpack_require__(/*! ../../hooks/useNumRoll */ \"./src/hooks/useNumRoll.ts\"));\n\nvar Context = rax_1.createContext({});\n\nfunction Counter() {\n  var _a = rax_1.useState(0),\n      count = _a[0],\n      setCount = _a[1];\n\n  console.log(\"reflesh\", count);\n  var prevCount = usePrevious(count);\n  rax_1.useEffect(function () {\n    console.log(\"---------------------\", count);\n    setTimeout(function () {\n      setCount(function (v) {\n        console.log(\"...............\", v);\n        return v + 10;\n      });\n    }, 3000);\n  }, []);\n  return rax_1.createElement(\"h1\", null, \"Now: \", count, \", before: \", prevCount);\n}\n\nfunction usePrevious(value) {\n  var ref = rax_1.useRef();\n  rax_1.useEffect(function () {\n    ref.current = value;\n  });\n  return ref.current;\n}\n\nfunction Demo() {\n  var _a = rax_1.useState(0),\n      a = _a[0],\n      setA = _a[1];\n\n  var _b = rax_1.useState(0),\n      b = _b[0],\n      setB = _b[1];\n\n  var preA = usePrevious(a);\n  var boxEle = rax_1.useRef(null);\n\n  var _c = rax_1.useState(true),\n      showButton = _c[0],\n      setShowButton = _c[1];\n\n  var localNumRoll = useNumRoll_1.default();\n\n  var _d = rax_1.useState({\n    name: \"jian\",\n    age: 10\n  }),\n      msg = _d[0],\n      setMsg = _d[1]; // console.log(\".............update\")\n\n\n  var n = rax_1.useRef(0);\n  var child1 = rax_1.useMemo(function () {\n    return rax_1.createElement(Child_1.default, {\n      a: a\n    });\n  }, [a]);\n  var cb = rax_1.useCallback(function () {\n    // console.log(\"...........\",a);\n    return a;\n  }, [a]);\n  var testCallback = rax_1.useCallback(function () {\n    console.log(\">>>>>>>>>>>>>>>>>>>>>>>testCallback\");\n    return new Promise(function (resolve, reject) {\n      resolve(a + 3);\n    }); // if(a===3){\n    //     return a\n    // }\n  }, [a]);\n\n  var getContent = function getContent() {\n    return rax_1.createElement(\"div\", null, \"content\");\n  };\n\n  var defsElement = rax_1.createElement(\"linearGradient\", {\n    id: \"Gradient1\",\n    x1: \"0\",\n    x2: \"0\",\n    y1: \"0\",\n    y2: \"1\"\n  }, rax_1.createElement(\"stop\", {\n    offset: \"0%\",\n    \"stop-color\": \"rgba(0,0,0,0.4)\"\n  }), rax_1.createElement(\"stop\", {\n    offset: \"100%\",\n    \"stop-color\": \"rgba(0,0,0,.8)\"\n  }));\n  rax_1.useEffect(function () {\n    // console.log(\"a:\",a,\"b\",b)\n    n.current++;\n    setInterval(function () {\n      setB(function (v) {\n        return n.current;\n      }); // setB(n.current);\n\n      setMsg(function (state) {\n        return __assign(__assign({}, state), {\n          name: \"zhang\" + a\n        });\n      }); // setMsg(state =>{\n      //     console.log(\"..........state\",state)\n      //     return {...state,name:\"zhang\"+a}\n      // })\n    }, 5000);\n  }, [a]);\n  rax_1.useEffect(function () {\n    window.setButton = function (v) {\n      setShowButton(v);\n    };\n\n    setTimeout(function () {\n      setShowButton(false);\n    }, 300);\n  }, []);\n  var test = \"是否结束打\\n发时间佛山\";\n  return rax_1.createElement(\"div\", {\n    className: \"demobox\",\n    ref: boxEle\n  }, test, rax_1.createElement(\"div\", {\n    className: \"testpresentation\",\n    role: \"presentation\",\n    \"aria-label\": \"\\u6211\\u662F\\u6D4B\\u8BD5\\u5440\"\n  }), rax_1.createElement(MemoChild_1.default, {\n    testFun: testCallback\n  }), showButton && rax_1.createElement(RaxUseTimeout_1.default, null));\n}\n\nexports.default = Demo;\nvar children = [{\n  x: 0,\n  y: 0\n}, {\n  x: 1,\n  y: 0\n}, {\n  x: 2,\n  y: 0\n}, {\n  x: 3,\n  y: 0\n}, {\n  x: 4,\n  y: 0\n}, {\n  x: 5,\n  y: 0\n}, {\n  x: 0,\n  y: 1\n}, {\n  x: 0,\n  y: 2\n}, {\n  x: 0,\n  y: 3\n}, {\n  x: 0,\n  y: 4\n}, {\n  x: 0,\n  y: 5\n}, {\n  x: 0,\n  y: 6\n}];\n\nfunction _sort(a, b) {\n  if (a.x == b.x && a.y == b.y) {\n    return 0;\n  }\n\n  if (a.x == b.x) {\n    return a.y > b.y ? 1 : -1;\n  }\n\n  return a.x > b.x ? 1 : -1;\n}\n\nfunction test(p, l, r) {\n  var l = l || 0,\n      r = r || children.length;\n\n  while (r - l > 0) {\n    var m = l + r >> 1;\n    var mid = children[m]; //比较下坐标大小\n\n    var order = _sort(p, mid);\n\n    if (order == 1) {\n      l = Math.max(l + 1, m);\n    } else if (order == -1) {\n      r = Math.min(r - 1, m);\n    } else {\n      l = r = m;\n    }\n  }\n\n  return l + r >> 1;\n}\n\nconsole.log(test({\n  x: 0,\n  y: 4\n}, 0, 8));\n\n//# sourceURL=webpack:///./src/components/Demo/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/components/MemoChild/index.less":
-/*!*********************************************!*\
-  !*** ./src/components/MemoChild/index.less ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/MemoChild/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/MemoChild/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/MemoChild/index.tsx":
+/***/ "./src/components/LockDemo/index.less":
 /*!********************************************!*\
-  !*** ./src/components/MemoChild/index.tsx ***!
+  !*** ./src/components/LockDemo/index.less ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\n__webpack_require__(/*! ./index.less */ \"./src/components/MemoChild/index.less\");\n\nfunction default_1(props) {\n  var count = rax_1.useRef(0);\n\n  var _a = rax_1.useState(0),\n      n = _a[0],\n      setN = _a[1]; // const showMsg=()=>{\n  //     setTimeout(()=>{\n  //         console.log(\"......a\",props.a)\n  //     },2000)\n  // }\n  // console.log(\"memo reflash\",count.current++)\n\n\n  rax_1.useMemo(function () {\n    console.log(\"............\", n); //         setTimeout(()=>{\n    // setN(n=>++n)\n    //         },50)\n  }, [n]);\n  rax_1.useEffect(function () {\n    props.testFun().then(function (num) {\n      setN(num);\n    });\n  }, [props.testFun]);\n  return rax_1.createElement(\"div\", {\n    className: \"memochildbox\"\n  }, \"memo\" + n);\n}\n\nexports.default = default_1;\n\n//# sourceURL=webpack:///./src/components/MemoChild/index.tsx?");
+eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/LockDemo/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/LockDemo/index.less?");
 
 /***/ }),
 
-/***/ "./src/components/RaxUseTimeout/index.less":
-/*!*************************************************!*\
-  !*** ./src/components/RaxUseTimeout/index.less ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/_style-loader@1.3.0@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./index.less */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/components/RaxUseTimeout/index.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/components/RaxUseTimeout/index.less?");
-
-/***/ }),
-
-/***/ "./src/components/RaxUseTimeout/index.tsx":
-/*!************************************************!*\
-  !*** ./src/components/RaxUseTimeout/index.tsx ***!
-  \************************************************/
+/***/ "./src/components/LockDemo/index.tsx":
+/*!*******************************************!*\
+  !*** ./src/components/LockDemo/index.tsx ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\n__webpack_require__(/*! ./index.less */ \"./src/components/RaxUseTimeout/index.less\");\n\nvar rax_use_mounted_state_1 = __importDefault(__webpack_require__(/*! rax-use-mounted-state */ \"./node_modules/_rax-use-mounted-state@1.0.1@rax-use-mounted-state/lib/index.js\"));\n\nvar rax_use_timeout_1 = __importDefault(__webpack_require__(/*! rax-use-timeout */ \"./node_modules/_rax-use-timeout@1.0.0@rax-use-timeout/lib/index.js\"));\n\nexports.default = rax_1.memo(function (props) {\n  var isMounted = rax_use_mounted_state_1.default();\n  rax_use_timeout_1.default(function () {\n    console.log(\"...............\", isMounted());\n  }, 2000);\n  rax_1.useEffect(function () {\n    setTimeout(function () {\n      console.log(\"...............aa\", isMounted());\n    }, 3000);\n  }, []);\n  return rax_1.createElement(\"div\", null, \"111\");\n});\n\n//# sourceURL=webpack:///./src/components/RaxUseTimeout/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/components/XXL/index.js":
-/*!*************************************!*\
-  !*** ./src/components/XXL/index.js ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("Object.extend = function (props) {\n  //继承父类\n  var prototype = Object.create(this.prototype); //初始化函数ctor\n\n  var _Class = function _Class() {\n    if (this.ctor) this.ctor.apply(this, arguments);\n  }; //当前类属性和方法\n\n\n  for (var k in props) {\n    prototype[k] = props[k];\n  }\n\n  _Class.prototype = prototype; //类继承\n\n  _Class.extend = this.extend; //类扩展\n\n  _Class.expand = function (prop) {\n    for (var name in prop) {\n      prototype[name] = prop[name];\n    }\n  };\n\n  return _Class;\n}; //消消乐游戏 基础方法\n\n\nvar PointArr = Object.extend({\n  ctor: function ctor(arr) {\n    this.children = [];\n\n    if (Object.prototype.toString.call(arr) == \"[object Array]\") {\n      this.children = arr.sort(this._sort);\n    }\n  },\n  //按照x和y大小排序\n  _sort: function _sort(a, b) {\n    if (a.x == b.x && a.y == b.y) {\n      return 0;\n    }\n\n    if (a.x == b.x) {\n      return a.y > b.y ? 1 : -1;\n    }\n\n    return a.x > b.x ? 1 : -1;\n  },\n  //左边l到右边r是否存在p，不存在返回-1，存在返回位置\n  indexOf: function indexOf(p, l, r) {\n    var n = this.nearOf(p, l, r);\n\n    if (this.children[n] && this.children[n].x == p.x && this.children[n].y == p.y) {\n      return n;\n    } else {\n      return -1;\n    }\n  },\n  //查找离坐标最近的方块\n  nearOf: function nearOf(p, l, r) {\n    var l = l || 0,\n        r = r || this.children.length;\n\n    while (r - l > 0) {\n      var m = l + r >> 1;\n      var mid = this.children[m]; //比较下坐标大小\n\n      var order = this._sort(p, mid);\n\n      if (order == 1) {\n        l = Math.max(l + 1, m);\n      } else if (order == -1) {\n        r = Math.min(r - 1, m);\n      } else {\n        l = r = m;\n      }\n    }\n\n    return l + r >> 1;\n  },\n  //插入一个坐标方块\n  add: function add(p) {\n    var n = this.nearOf(p);\n    this.children.splice(n, 0, p);\n  },\n  //删除指定坐标的方块\n  del: function del(p) {\n    var n = this.indexOf(p);\n\n    if (n > -1) {\n      return this.children.splice(n, 1);\n    }\n  },\n  //是否同一种眼色\n  isGroup: function isGroup(a, b) {\n    return a.color == b.color;\n  },\n  //获取x,y方向颜色一样的相连方块\n  getColorXy: function getColorXy(p, x, y) {\n    var arr = [];\n    var top = {\n      x: p.x,\n      y: p.y\n    }; //一个闭包循环查找方块同色相连\n\n    var _async = function _async() {\n      top.x += x || 0;\n      top.y += y || 0;\n      var n = this.indexOf(top);\n\n      if (n != -1 && this.isGroup(p, this.children[n])) {\n        arr.push(n);\n\n        _async.call(this);\n      } else {\n        return arr;\n      }\n    };\n\n    _async.call(this);\n\n    return arr;\n  },\n  //获取每个方块相连的信息\n  getLinkData: function getLinkData() {\n    for (var i = 0; i < this.children.length; i++) {\n      var sp = this.children[i]; //当前的方块\n      //top记录上，right记录右，初始top为0，right为0\n\n      sp.i = i; //top 数组包含上面相连的信息\n\n      sp.top = this.getColorXy(sp, 0, 1);\n      sp.right = this.getColorXy(sp, 1, 0);\n      sp.bottom = this.getColorXy(sp, 0, -1);\n      sp.left = this.getColorXy(sp, -1, 0);\n    }\n\n    return this.children;\n  },\n  //统计需要消除的方块，也就是连在一起的方块\n  getClearData: function getClearData() {\n    var clearData = {\n      /*直角相连的方块 4种 里面子数组的长度表示相连的个数\r\n       0       0 0 0   0 0 0      0\r\n       0           0   0          0\r\n       0 0 0       0   0      0 0 0\r\n       */\n      \"right-angle\": [],\n\n      /*平角相连的方块 2种 里面子数组的长度表示相连的个数\r\n      0   0 0 0 0 0\r\n      0\r\n      0\r\n      0\r\n      0\r\n      */\n      \"flat-angle\": []\n    };\n    var cache = []; //首先排除直角相连的同色方块\n\n    for (var i = 0; i < this.children.length; i++) {\n      if (cache.indexOf(i) == -1) {\n        var sp = this.children[i];\n        sp.top = this.getColorXy(sp, 0, 1);\n        sp.right = this.getColorXy(sp, 1, 0);\n        sp.bottom = this.getColorXy(sp, 0, -1);\n        sp.left = this.getColorXy(sp, -1, 0);\n\n        if (sp.top.length >= 2 && sp.right.length >= 2) {\n          //记录相连的方块位置\n          var oneArr = [i].concat(sp.top, sp.right); //加到缓存，下次就不查询了\n\n          cache = cache.concat(oneArr);\n          clearData[\"right-angle\"].push(oneArr);\n          continue;\n        }\n\n        if (sp.top.length >= 2 && sp.left.length >= 2) {\n          //记录相连的方块位置\n          var oneArr = [i].concat(sp.top, sp.left); //加到缓存，下次就不查询了\n\n          cache = cache.concat(oneArr);\n          clearData[\"right-angle\"].push(oneArr);\n          continue;\n        }\n\n        if (sp.bottom.length >= 2 && sp.right.length >= 2) {\n          //记录相连的方块位置\n          var oneArr = [i].concat(sp.bottom, sp.right); //加到缓存，下次就不查询了\n\n          cache = cache.concat(oneArr);\n          clearData[\"right-angle\"].push(oneArr);\n          continue;\n        }\n\n        if (sp.bottom.length >= 2 && sp.left.length >= 2) {\n          //记录相连的方块位置\n          var oneArr = [i].concat(sp.bottom, sp.left); //加到缓存，下次就不查询了\n\n          cache = cache.concat(oneArr);\n          clearData[\"right-angle\"].push(oneArr);\n          continue;\n        }\n      }\n    } //平角相连的同色方块\n\n\n    for (var i = 0; i < this.children.length; i++) {\n      if (cache.indexOf(i) == -1) {\n        var sp = this.children[i];\n        sp.top = this.getColorXy(sp, 0, 1);\n        sp.right = this.getColorXy(sp, 1, 0);\n        sp.bottom = this.getColorXy(sp, 0, -1);\n        sp.left = this.getColorXy(sp, -1, 0); //3个以上平角相连的\n\n        if (sp.top.length >= 2) {\n          var oneArr = [i].concat(sp.top);\n          cache = cache.concat(oneArr);\n          clearData[\"flat-angle\"].push(oneArr);\n        }\n\n        if (sp.right.length > 2) {\n          var oneArr = [i].concat(sp.right);\n          cache = cache.concat(oneArr);\n          clearData[\"flat-angle\"].push(oneArr);\n        }\n      }\n    }\n\n    return clearData;\n  },\n  //消除方块\n  clearLinks: function clearLinks(clearData) {\n    var arr = [];\n    var newarr = [].concat(this.children);\n\n    for (var i = 0; i < clearData[\"right-angle\"].length; i++) {\n      arr = arr.concat(clearData[\"right-angle\"][i]);\n    }\n\n    for (var i = 0; i < clearData[\"flat-angle\"].length; i++) {\n      arr = arr.concat(clearData[\"flat-angle\"][i]);\n    }\n\n    var _loop = function _loop() {\n      var rIdx = arr.shift();\n      newarr = newarr.filter(function (v) {\n        return v.i !== rIdx;\n      });\n    };\n\n    while (arr.length > 0) {\n      _loop();\n    }\n\n    this.children = newarr;\n  } //方块下落\n\n}); //测试\n\nvar arr = [];\n\nfor (var x = 0; x < 5; x++) {\n  for (var y = 0; y < 5; y++) {\n    var p = {\n      x: x,\n      y: y,\n      color: 0 | Math.random() * 3\n    };\n    arr.push(p);\n  }\n}\n\nvar game = new PointArr(arr);\ngame.getLinkData();\nconsole.log(game); // console.log(game.children.length)\n//统计数据\n\nvar clearData = game.getClearData();\nconsole.log(\"...........getClearData\", clearData);\ngame.clearLinks(clearData); // console.log(\"........near\",arr,game.nearOf({x:3,y:3}))\n\nconsole.log(\"............game.children\", game.children); // \"C:\\Program Files (x86)\\JetBrains\\WebStorm 8.0.3\\bin\\runnerw.exe\" \"C:\\Program Files (x86)\\nodejs\\node.exe\" make.js\n// { children:\n//    [ { x: 0, y: 0, color: 0 },\n//        { x: 0, y: 1, color: 0 },\n//        { x: 0, y: 2, color: 1 },\n//        { x: 0, y: 3, color: 0 },\n//        { x: 0, y: 4, color: 1 },\n//        { x: 1, y: 0, color: 0 },\n//        { x: 1, y: 1, color: 0 },\n//        { x: 1, y: 2, color: 2 },\n//        { x: 1, y: 3, color: 0 },\n//        { x: 1, y: 4, color: 2 },\n//        { x: 2, y: 0, color: 1 },\n//        { x: 2, y: 1, color: 0 },\n//        { x: 2, y: 2, color: 0 },\n//        { x: 2, y: 3, color: 1 },\n//        { x: 2, y: 4, color: 2 },\n//        { x: 3, y: 0, color: 1 },\n//        { x: 3, y: 1, color: 2 },\n//        { x: 3, y: 2, color: 2 },\n//        { x: 3, y: 3, color: 2 },\n//        { x: 3, y: 4, color: 0 },\n//        { x: 4, y: 0, color: 2 },\n//        { x: 4, y: 1, color: 1 },\n//        { x: 4, y: 2, color: 2 },\n//        { x: 4, y: 3, color: 1 },\n//        { x: 4, y: 4, color: 2 } ] }\n// 25\n// { 'right-angle': [], 'flat-angle': [ [ 16, 17, 18 ] ] }\n// [ 16, 17, 18 ]\n\n//# sourceURL=webpack:///./src/components/XXL/index.js?");
-
-/***/ }),
-
-/***/ "./src/hooks/useNumRoll.ts":
-/*!*********************************!*\
-  !*** ./src/hooks/useNumRoll.ts ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.rollAnim = void 0;\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nfunction rollAnim(data) {\n  var startNum = data.startNum;\n  var targetNum = data.targetNum;\n  var maxRollAnimTime = data.maxRollAnimTime || 1000;\n  var rollSpeed = data.rollSpeed || 0.02;\n  var updateCb = data.updateCb;\n  var finishCb = data.finishCb;\n  var rollAnimTime = Math.abs(targetNum - startNum) / rollSpeed;\n  var changeAmount = targetNum - startNum;\n  var rollStartTime;\n  var hander = null;\n  var interval = data.interval;\n  var intervalCb = data.intervalCb;\n  var lastTime = 0;\n  rollAnimTime = Math.min(rollAnimTime, maxRollAnimTime);\n\n  var cancel = function cancel() {\n    if (hander) {\n      cancelAnimationFrame(hander);\n      hander = null;\n    }\n  };\n\n  var playAnim = function playAnim() {\n    hander = requestAnimationFrame(function (time) {\n      if (!rollStartTime) {\n        rollStartTime = time;\n      }\n\n      var dt = time - rollStartTime;\n      var showAmount = startNum + Math.floor(dt / rollAnimTime * changeAmount);\n      showAmount = Math.floor(showAmount * 100) / 100;\n\n      if (dt >= rollAnimTime) {\n        showAmount = targetNum;\n        rollStartTime = 0;\n        updateCb && updateCb(targetNum);\n        finishCb && finishCb(targetNum);\n        return;\n      }\n\n      if (intervalCb && interval) {\n        if (!lastTime) {\n          lastTime = time;\n        }\n\n        if (time - lastTime >= interval) {\n          intervalCb();\n          lastTime = time;\n        }\n      }\n\n      updateCb && updateCb(showAmount);\n      playAnim();\n    });\n  };\n\n  playAnim();\n  return cancel;\n}\n\nexports.rollAnim = rollAnim;\n\nfunction useNumRoll() {\n  var hander = rax_1.useRef(null);\n  rax_1.useEffect(function () {\n    return function () {\n      if (hander.current) {\n        hander.current();\n        hander.current = null;\n      }\n    };\n  }, []);\n  return rax_1.useCallback(function (info) {\n    if (hander.current) {\n      hander.current();\n      hander.current = null;\n    }\n\n    hander.current = rollAnim(info);\n    return hander.current;\n  }, []);\n}\n\nexports.default = useNumRoll;\n\n//# sourceURL=webpack:///./src/hooks/useNumRoll.ts?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**@jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\n__webpack_require__(/*! ./index.less */ \"./src/components/LockDemo/index.less\");\n\nfunction lockScroll(isLock) {\n  if (isLock) {\n    document.body.style.position = \"fixed\";\n    document.body.style.height = \"100vh\";\n    document.body.style.overflow = \"hidden\";\n  } else {\n    document.body.style.position = \"relative\";\n    document.body.style.height = \"auto\";\n    document.body.style.overflow = \"auto\";\n  }\n}\n\nfunction default_1() {\n  var scrollParent = rax_1.useRef(null);\n\n  var _a = rax_1.useState(true),\n      show = _a[0],\n      setShow = _a[1];\n\n  var moveDom = rax_1.useRef(null);\n  var pdom = rax_1.useRef(null);\n  rax_1.useEffect(function () {\n    //   disableDodyScroll(scrollParent.current);\n    lockScroll(true);\n    setTimeout(function () {\n      lockScroll(false);\n      console.log(\"22222222222\"); // enableBodyScroll(scrollParent.current)\n      // pdom.current.style.transform = \"translateX(-50vw)\"\n      // moveDom.current.style.transform = \"translateY(-100vw)\"\n      // setShow(false)\n    }, 5000);\n  }, []);\n  return rax_1.createElement(\"div\", null, rax_1.createElement(\"div\", {\n    dangerouslySetInnerHTML: {\n      __html: \"队伍<rgb style='color: #219B15;'>“相亲相爱一家人”</rgb>亲密值达到了28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;获得了亲密奖励\"\n    }\n  }));\n}\n\nexports.default = default_1;\n\n//# sourceURL=webpack:///./src/components/LockDemo/index.tsx?");
 
 /***/ }),
 
@@ -1001,7 +760,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/_style-loader@1.3.0@styl
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {\n  if (k2 === undefined) k2 = k;\n  Object.defineProperty(o, k2, {\n    enumerable: true,\n    get: function get() {\n      return m[k];\n    }\n  });\n} : function (o, m, k, k2) {\n  if (k2 === undefined) k2 = k;\n  o[k2] = m[k];\n});\n\nvar __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {\n  Object.defineProperty(o, \"default\", {\n    enumerable: true,\n    value: v\n  });\n} : function (o, v) {\n  o[\"default\"] = v;\n});\n\nvar __importStar = this && this.__importStar || function (mod) {\n  if (mod && mod.__esModule) return mod;\n  var result = {};\n  if (mod != null) for (var k in mod) {\n    if (k !== \"default\" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\n  }\n\n  __setModuleDefault(result, mod);\n\n  return result;\n};\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.start = exports.b = void 0;\n/** @jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar Demo_1 = __importDefault(__webpack_require__(/*! ./components/Demo */ \"./src/components/Demo/index.tsx\"));\n\nvar DriverDOM = __importStar(__webpack_require__(/*! driver-dom */ \"./node_modules/_driver-dom@2.0.9@driver-dom/es/index.js\")); // import \"./Util/ajax.js\"\n\n\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\nexports.b = 999999;\n\nfunction start(ele) {\n  rax_1.render( // <SliderUI\n  //         width = {700}\n  //         height = {200}\n  //         autoPlay={true}\n  //         loop={true}\n  //         showsPagination={true}\n  //         autoPlayInterval={3000}\n  //         horizontal= {false}\n  //         vertical={true}\n  //         paginationStyle={{\n  //             itemColor: '#dedede',\n  //             itemSelectedColor:'#4ea03d',\n  //         }}\n  //     />   \n  rax_1.createElement(Demo_1.default, null), ele, {\n    driver: DriverDOM\n  });\n}\n\nexports.start = start;\nstart(document.body);\n\n//# sourceURL=webpack:///./src/index.tsx?");
+eval("\n\nvar __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {\n  if (k2 === undefined) k2 = k;\n  Object.defineProperty(o, k2, {\n    enumerable: true,\n    get: function get() {\n      return m[k];\n    }\n  });\n} : function (o, m, k, k2) {\n  if (k2 === undefined) k2 = k;\n  o[k2] = m[k];\n});\n\nvar __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {\n  Object.defineProperty(o, \"default\", {\n    enumerable: true,\n    value: v\n  });\n} : function (o, v) {\n  o[\"default\"] = v;\n});\n\nvar __importStar = this && this.__importStar || function (mod) {\n  if (mod && mod.__esModule) return mod;\n  var result = {};\n  if (mod != null) for (var k in mod) {\n    if (k !== \"default\" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\n  }\n\n  __setModuleDefault(result, mod);\n\n  return result;\n};\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.start = exports.b = void 0;\n/** @jsx createElement */\n\nvar rax_1 = __webpack_require__(/*! rax */ \"./node_modules/_rax@1.2.0@rax/index.js\");\n\nvar DriverDOM = __importStar(__webpack_require__(/*! driver-dom */ \"./node_modules/_driver-dom@2.0.9@driver-dom/es/index.js\"));\n\n__webpack_require__(/*! ./Util/ajax.js */ \"./src/Util/ajax.js\");\n\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\nvar LockDemo_1 = __importDefault(__webpack_require__(/*! ./components/LockDemo */ \"./src/components/LockDemo/index.tsx\"));\n\nexports.b = 999999;\n\nfunction start(ele) {\n  rax_1.render( // <SliderUI\n  //         width = {700}\n  //         height = {200}\n  //         autoPlay={true}\n  //         loop={true}\n  //         showsPagination={true}\n  //         autoPlayInterval={3000}\n  //         horizontal= {false}\n  //         vertical={true}\n  //         paginationStyle={{\n  //             itemColor: '#dedede',\n  //             itemSelectedColor:'#4ea03d',\n  //         }}\n  //     />   \n  rax_1.createElement(LockDemo_1.default, null), ele, {\n    driver: DriverDOM\n  });\n}\n\nexports.start = start;\nstart(document.body);\n\n//# sourceURL=webpack:///./src/index.tsx?");
 
 /***/ })
 

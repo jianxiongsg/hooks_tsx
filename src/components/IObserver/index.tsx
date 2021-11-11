@@ -2,7 +2,6 @@
 import {createElement , useContext, useEffect, useRef, useState } from "rax";
 import { addToLazy } from "../../Util/LazyImage";
 import { Context } from "../ContextParent";
-
 import "./index.less"
 let imgarr=[
     'https://gw.alicdn.com/imgextra/i3/O1CN01nR9msk1drrlOOc7F9_!!6000000003790-2-tps-444-80.png',
@@ -30,11 +29,10 @@ export default function (props){
     },[])
     return (
         <div ref={scrollEle} className="lazy-box">
-            
-           <div data-site="start" ref="start"></div>
+            <div data-site="start" ref="start"></div>
             {
-                imgarr.map((v,idx)=>{
-                    return <img ref={ref=>{imgList.current.push(ref)}} id={'id:'+idx} className="lazy-image" data-src={v} />
+                imgarr.map((v)=>{
+                    return <img ref={ref=>{imgList.current.push(ref)}} className="lazy-image" data-src={v} />
                 })
             }
             <div class="end" data-site="end" ref="end"></div>

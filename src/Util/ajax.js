@@ -57,7 +57,7 @@ function ajax(options){
         defaults.error(".....报错error");
     }
 }
-
+ 
 ajax({
     type:'GET',
     url:'http://localhost:3000/users/test',
@@ -66,7 +66,7 @@ ajax({
         id:"12345"
     },
     header:{
-        'Content-Type':'application/x-www-form-urlencoded'
+        'Content-Type':'application/json'
     },
     success:function(data,xhr){
         console.log("成功",data)
