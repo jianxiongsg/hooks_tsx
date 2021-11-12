@@ -1,0 +1,73 @@
+@vw:7.5vw;
+.txt-box{
+    position: absolute;
+    top: 50vw;
+    left: 30vw;
+    width: 200/@vw;
+    height: 40/@vw;
+    font-size: 30/@vw;
+    background-color: rgba(200,200,200,0.8);
+    border-radius: 20/@vw;
+    overflow: hidden;
+}
+
+.ss-carousel{
+    position: relative;
+}
+.item{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    font-weight: bold;
+    color: #8a4519;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 30/@vw;
+    height: 30/@vw;
+}
+.item-animation {
+    opacity: 0;
+    top: 50/@vw;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .pre{
+    animation-name: backOutUpKeyframes;
+  }
+  .current {
+    animation-name: backInUpKeyframes;
+  }
+
+    @keyframes backOutUpKeyframes {
+      0% {
+        transform: translateY(-50/@vw);
+        opacity: 1;
+      }
+  
+      100% {
+        transform: translateY(-100/@vw);
+        opacity: 0;
+      }
+    }
+  
+    @keyframes backInUpKeyframes {
+      0% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+  
+      100% {
+        transform: translateY(-50/@vw);
+        opacity: 1;
+      }
+    }
+  
