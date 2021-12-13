@@ -15,6 +15,67 @@ import { CarouselParentUI } from "./components/CarouselUI";
 import { BubbleNewParentUI } from "./components/BubbleNew";
 export const b = 999999;
 
+function wait(times){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            if(Math.random() < times){
+                resolve(true);
+            }else{
+                reject();
+            }
+        },1000)
+    })
+}
+
+wait(1).then(()=>{
+    console.log('.............1',Date.now())
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            if(Math.random() < 1){
+                resolve(true);
+            }else{
+                reject();
+            }
+        },1000)
+    })
+}).then(()=>{
+    console.log('.............2',Date.now())
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            if(Math.random() < 0){
+                resolve(true);
+            }else{
+                reject('错了');
+            }
+        },1000)
+    })
+   
+}).then(()=>{
+    console.log('.............3',Date.now())
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            if(Math.random() < 1){
+                resolve(true);
+            }else{
+                reject();
+            }
+        },1000)
+    })
+}).then(()=>{
+    console.log('.............4',Date.now())
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            if(Math.random() < 1){
+                resolve(true);
+            }else{
+                reject();
+            }
+        },1000)
+    })
+}).catch((error)=>{
+    console.log('...........error',error)
+})
+
 export function start(ele:HTMLElement){ 
     render(
         // <SliderUI
@@ -31,7 +92,7 @@ export function start(ele:HTMLElement){
         //             itemSelectedColor:'#4ea03d',
         //         }}
         //     />   
-        <BubbleNewParentUI  />
+        <AnimatedUI  />
         
     ,ele,{driver:DriverDOM})
     

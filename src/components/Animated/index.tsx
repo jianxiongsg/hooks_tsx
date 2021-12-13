@@ -1,10 +1,12 @@
 /**@jsx createElement */
-/** @jsxFrag */
 import { Component, createElement, render } from "rax";
-import Animated,{Easing} from "./animated";
+import Animated from "./animated";
+const Easing = {
+  linear: 'linear',
+};
 
 export default class AnimatedUI extends Component {
-  state:any;
+  state;
   constructor(props) {
     super(props);
     this.state = {
@@ -77,11 +79,13 @@ export default class AnimatedUI extends Component {
   render() {
     return (
       <div>
-      <Animated.View style={{ transform: [{ scale: this.getScale() }],opacity: this.getScale()  }}>
+
+      <Animated.Image style={{width:'50vw',height:'50vw', ...{ transform: [{ scale: this.getScale() }],opacity: this.getScale()  }}} source={{uri: 'https://gw.alicdn.com/tfs/TB1estlTzTpK1RjSZKPXXa3UpXa-600-600.png'}} />
+      {/* <Animated.View style={{ transform: [{ scale: this.getScale() }],opacity: this.getScale()  }}>
         <div
           style={{ backgroundColor: "red", height: "100rpx", width: "100rpx" }}
         ></div>
-      </Animated.View>
+      </Animated.View> */}
       <div>11</div>
       </div>
     );

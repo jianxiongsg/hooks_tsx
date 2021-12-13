@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'JXTEST';
+    src: url('https://g.alicdn.com/eva-assets/19a7d480c906a147167c4e93ac28fc1c/0.0.1/tmp/font/ce4e3c92-f27c-4dad-b2a7-f7ec7bb238d6.woff') format('woff'),
+      url("https://g.alicdn.com/eva-assets/b48e40579588f5748334b602fc69ed24/0.0.1/tmp/font/553ca391-3f2f-4077-a6a4-0a89d2cce702.ttf") format("ttf"),
+      url("https://g.alicdn.com/eva-assets/ae3d3213c02f8c9c33bf31094d8b71e0/0.0.1/tmp/font/86682848-2f49-4037-b381-c9a8b5e5357d.eot") format("eot");
+  }

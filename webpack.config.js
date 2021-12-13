@@ -15,7 +15,7 @@ module.exports = {
         },
         contentBase:path.join(__dirname,"./dist"),
         host:"0.0.0.0",
-        port:8888,
+        port:9999,
         hot:true,
         clientLogLevel:"none",
         disableHostCheck:true

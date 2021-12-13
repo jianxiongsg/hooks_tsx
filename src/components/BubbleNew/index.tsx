@@ -4,6 +4,8 @@ import  Children  from "rax-children";
 import cloneElement from 'rax-clone-element';
 import classnames from 'classnames';
 import './index.less';
+import store from "../../store/store";
+import { autorun } from 'mobx'
 
 export interface ItemProps {
     children?: RaxNode;
@@ -87,10 +89,14 @@ export function Bubble(props:Props){
 }
 
 export function BubbleNewParentUI(){
-   
+   const [count,setCount] = useState(null);
+    autorun(()=>{
+        setCount(store.count)
+        console.log('...............autorun')
+    })
     const list = [
         {
-            text:"测试文案1",
+            text:"你好测试",
             image:"https://gw.alicdn.com/imgextra/i3/O1CN01Z5EP9V1woBJNl7A8X_!!6000000006354-2-tps-32-33.png"
         },
         {
@@ -107,6 +113,7 @@ export function BubbleNewParentUI(){
         }
 
     ]
+    console.log('...............refresh')
     return (
         <div className={"txt-box"}>
             <Bubble width={200} height={40}>
@@ -116,6 +123,7 @@ export function BubbleNewParentUI(){
                     })
                 }
             </Bubble>
+            {count}
         </div>
     )
 

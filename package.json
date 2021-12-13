@@ -34,6 +34,7 @@
     "html-webpack-plugin": "^4.2.0",
     "intersection-observer": "^0.12.0",
     "jsonp": "^0.2.1",
+    "mobx": "^6.3.7",
     "rax": "^1.1.4",
     "rax-animated": "^0.6.5",
     "rax-children": "^1.0.0",
